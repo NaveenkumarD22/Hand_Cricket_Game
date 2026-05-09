@@ -1,10 +1,10 @@
-'''
+"""
 Requirements:
 1) Print banner to be finished with controls of the game, instructions etc.
 2) Full game logic to be finished
-'''
+"""
 
-#Start of program
+# Start of program
 from os import system
 import time
 import random as rd
@@ -151,8 +151,8 @@ while not(innings > 2 or score >= chase):
     while not(user_choice in choice_list):
         user_choice = input("Kindly enter numbers from 1 to 10 ONLY: ")
     user_choice = int(user_choice)
-    #bot_choice = rd.choice(choice_list)
-    bot_choice = 7
+    bot_choice = rd.choice(choice_list)
+    #bot_choice = 7
     bot_choice = int(bot_choice)
     print("The bot has chosen", bot_choice)
 

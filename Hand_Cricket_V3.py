@@ -1,8 +1,8 @@
-'''
+"""
 Requirements:
 1) Outro Print banner to be completed.
 2) code efficiency improvement and UI tweaking.
-'''
+"""
 
 # Start of program
 from os import system
@@ -130,7 +130,7 @@ def outro_printbanner(winner, batter, bowler, score, chase):
     else:
         print("THIS MATCH ENDS IN A DRAW.")
 
-#Start of Main program
+# Start of Main program
 scroll("WELCOME TO THE GAME OF HAND-CRICKET!")
 _ = system('cls')
 print_banner()
@@ -194,3 +194,5 @@ while not(innings > 2 or score >= chase):
 
 winner = win_check(score, chase, batter, bowler)
 outro_printbanner(winner, batter, bowler, score, chase)
+
+# End of Program

@@ -1,8 +1,8 @@
-'''
+"""
 Requirements:
 1) Toss to be implemented
 
-'''
+"""
 
 
 # Start of program
@@ -51,7 +51,7 @@ def toss_check():
 
 
 
-#scroll("WELCOME TO THE GAME OF HAND-CRICKET!")
+scroll("WELCOME TO THE GAME OF HAND-CRICKET!")
 _ = system('cls')
 print_banner()
 toss_winner = toss_check()
