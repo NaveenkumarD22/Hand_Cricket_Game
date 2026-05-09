@@ -48,7 +48,7 @@ def print_banner():
     print()
 
 
-def toss_check():
+def check_toss():
     odd_or_even_choice = input("Now, for the TOSS, choose either odd or even: ")
     while not(odd_or_even_choice == "odd" or odd_or_even_choice == "even"):
         odd_or_even_choice = input("Kindly choose ONLY EITHER of odd OR even: ")
@@ -134,7 +134,7 @@ def outro_printbanner(winner, batter, bowler, score, chase):
 scroll("WELCOME TO THE GAME OF HAND-CRICKET!")
 _ = system('cls')
 print_banner()
-toss_winner = toss_check()
+toss_winner = check_toss()
 print()
 if toss_winner == "Player(You)":
     print("CONGRATS! You have won the toss!")
